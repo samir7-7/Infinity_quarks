@@ -1,0 +1,701 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* haha */
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    color: #012970;
+    text-decoration: none;
+    list-style: none;
+}
+
+.haha p a{
+    font-size: 13px;
+}
+.navvv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.imagee{
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.navlinkss{
+    list-style: none;
+    
+
+}
+
+.navlinkss li{
+    display: inline-block;
+    padding: 0 20px;
+    color: #012970;
+}
+
+.navlinkss li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinkss li a:hover{
+    color: #0088a9;
+}
+
+.btnn{
+    padding: 9px 25px;
+    background-color: rgb(8, 86, 231);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btnnn{
+    padding: 9px 25px;
+    background-color: rgb(8, 86, 231);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 1rem;
+    width: 97%;
+    margin-bottom: 250px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.btnn:hover{
+    background-color: rgba(6, 99, 221, 0.8);
+}
+/* haha end */
+
+/* Banner Section */
+#banner{
+    background-image: white;
+    color:#444444;
+    padding-right: 5%;
+    background-color: rgba(233, 245, 248, 0.959);
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 750;
+    color:#012970;
+    margin-top: 100px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.button{
+    background-color: #4154F1;
+    color: white;
+    padding: 10px 45px !important;
+    border: none;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: initial !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.description{
+    color: #656568;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 30px !important;
+}
+
+.fa-long-arrow-right{
+    font-size: 8px;
+    margin-left: 3px;
+}
+
+.button:hover i{
+   padding-left: 5px;
+}
+
+.bottom-wave{
+    width: 105%;
+}
+
+/* Services Section */
+#services{
+    padding: 80px 0;
+    margin: 5px;
+}
+
+.services .service-img{
+    width:200px;
+    margin-top:20px;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.services{
+    padding: 5px;
+}
+
+.services h4{
+    padding: 7px;
+    color: #012970;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.services p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px ;
+    font-weight: 100;
+    padding: 7px;
+    padding-bottom: 30px;
+}
+
+.services.service-img:hover{
+    transform: scale(0.5);
+}
+
+.title-small{
+    color: #012970;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.service-title{
+    color:#012970;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* Form Section */
+#form{
+    background-color: #F6F9FF;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.titlee h4{
+    color:#01337D;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.all button{
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #4154F1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.all button:hover{
+    background-color: #606fee;
+}
+
+
+
+  /* Our team */
+  .teamm{
+    background-color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+}
+
+.roww{
+display: flex;
+flex-wrap: wrap;
+padding: 2em 1em;
+text-align: center;
+}
+
+.column{
+width: 100%;
+padding: 0.5em 0;
+}
+
+h1{
+width: 100%;
+text-align: center;
+font-size: 3.5em;
+color: #1f003b;
+}
+
+.card{
+box-shadow: 0 0 0.2em rgba(25,0,58,0.15);
+padding: 3.5em 1em;
+border-radius: 0.6em ;
+color: #1f003b;
+cursor: pointer;
+transition: 0.3s;
+background-color: rgb(255, 255, 255);
+}
+
+.card .imgcont{
+width: 8em;
+height: 8em;
+background-color: #a993ff;
+padding: 0.5em;
+border-radius: 50%;
+margin: 0 auto 2em auto;
+}
+
+.card img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+
+.card h3{
+font-weight: 500;
+
+}
+
+.card p{
+font-weight: 300;
+text-transform: uppercase;
+margin: 0.5em 0 2em 0;
+letter-spacing: 2px;
+}
+
+.icons{
+width: 50%;
+min-width: auto;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+.card a{
+text-decoration: none;
+color: inherit;
+font-size: 1.4em;
+}
+
+.card:hover{
+background: linear-gradient(
+    #7f41f1, #0E8FAE
+);
+color: #fff;
+}
+
+.card:hover .imgcont{
+transform: scale(1.15);
+}
+
+@media screen and (min-width:768px){
+.teamm{
+    padding: 1em 7em;
+}
+}
+
+@media screen and (min-width:992px){
+.teamm{
+    padding: 1em;
+}
+.card{
+    padding: 5em 1em;
+}
+.column{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+}
+}
+
+  @media (max-width: 720px){
+    .teamss{
+      flex-direction: column;
+    }
+
+    .ourteam{
+      width: 80%;
+      margin-top: 30px;
+    }
+  }
+
+/* Services Section */
+#services{
+    background-color: rgb(236, 235, 233);
+}
+.section-heading{
+    color:#204381;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    margin-bottom: 20px;
+}
+
+.section-heading +p{
+    color: gray;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-family:'Varela Round', sans-serif;
+}
+
+section .servicesss .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+
+section .servicesss .card-wrapper .cardd{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    position: relative;
+    padding-top: 4rem;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+section .servicesss .card-wrapper .cardd img{
+    position: absolute;
+    top: -3.5rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+section .servicesss .card-wrapper .cardd h2{
+    font-weight: 400;
+    color: #012970;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+section .servicesss .card-wrapper .card p{
+    line-height: 1.6;
+}
+
+section .servicesss .card-wrapper .cardd:hover{
+    background-color: rgb(34, 33, 33);
+}
+
+section .servicesss .card-wrapper .cardd:hover h2{
+    color: rgb(235, 235, 235);
+}
+
+section .servicesss .card-wrapper .cardd:hover p{
+    color: rgb(231, 231, 231);
+}
+
+/* Contact Section */
+/* .section-headerr{
+    text-align: center;
+}
+
+ .haha{
+    background-color: #FAFBFF;
+    margin: 10px;
+} */
+
+.section-headerr {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section-headerr p {
+    margin: 12px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.section-headerr h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight:500 ;
+    margin: 15px 0;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+
+.contact .info-box {
+    color: #444444;
+    background: #f1f3fa;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.foot {
+    color: #4154f1;
+    text-decoration: none;
+}
+
+.contact .info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+
+.contact .info-box h3 {
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+.contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+/* Footer Section */
+.footer .footer-top {
+    background: white url(Images/footerback.png) no-repeat right top;
+    background-size: contain;
+    border-top: 1px solid #e1ecff;
+    border-bottom: 1px solid #e1ecff;
+    padding: 60px 0 30px 0;
+}
+
+.footer-info .fa{
+    color: grey;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.footer-info .fa:hover{
+    color: rgb(20, 107, 221);
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.imageee{
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+}
+.footer .footer-top .footer-info {
+    margin-bottom: 30px;
+}
+
+.mt-3 {
+    margin-top: 15px!important;
+    margin-left: 0;
+}
+
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+
+.footer .footer-top .footer-contact p {
+    line-height: 26px;
+}
+
+.footer-info .spann {
+    margin-left: 100px;
+
+}
+
+.footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #012970;
+}
+
+.footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #012970;
+    padding-bottom: 15px;
+}
+
+/* Responsive */
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1152px;
+    }
+} 
+
+@media (min-width: 200px){
+    section .servicesss .card-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 2rem;
+        grid-row-gap: 6rem;
+    }
+
+    .mt-3 {
+        margin-top: 15px!important;
+        margin-left: 12px;
+    }
+
+    .footer .footer-top .footer-info {
+        margin-bottom: 30px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .footer-info .spann {
+        margin-left: 0px;
+        color:#012970;
+        font-family: 'Varela Round', sans-serif;
+    }
+}
+
+@media (min-width: 1024px){
+    section .servicesss .card-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
+        grid-row-gap: 6rem;
+    }
+}
+
+@media (min-width: 1200px){
+
+    section .servicesss .card-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+        grid-row-gap: 6rem;
+    }
+
+    .hamburger{
+        transform: translateX(-1000000%);
+    }
+
+    .footer-info .spann {
+        margin-left: 87px;
+        font-family: 'Varela Round', sans-serif;
+        color: #012970;
+        margin-bottom: 2px;
+    }
+
+    .footer-info img{
+        margin-left: -45px;
+    }
+
+    .footer-info {
+        margin-left: 10px;
+    }
+
+    .mt-3 {
+        margin-top: 15px!important;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 1025px){
+    .navvv{
+        display: none;
+    }
+}
+
+.hamburger .hamm{
+    color: rgb(16, 69, 212);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.site-main-wrapper{
+    position: relative;
+}
+
+.hamburger{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 101;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.mobile-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1005;
+    background-color: rgba(2, 2, 29, 0.904);
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 5rem;
+    transform: translateX(-100%);
+    transition: all .5s ease;
+}
+
+.open{
+    transform: translateX(0);
+}
+
+.hahaha{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 6px;
+    
+}
+
+.timess{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.mobile-nav ul{
+    list-style: none;
+}
+
+.mobile-nav ul li a{
+    color: rgb(13, 49, 128);
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+
+.mobile-nav ul li{
+    margin-bottom: 1rem;
+}
+
